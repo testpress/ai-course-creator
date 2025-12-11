@@ -1,0 +1,11 @@
+[project]
+name = "ai-course-creator"
+version = "0.1.0"
+description = "AI-powered course creator with syllabus generation"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=1.0.0",
+    "google-generativeai>=0.3.0",
+    "python-dotenv>=1.0.0",
+]
